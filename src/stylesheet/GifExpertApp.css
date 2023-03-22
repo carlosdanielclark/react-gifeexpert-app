@@ -1,0 +1,20 @@
+.GifExpert_Container {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.GifExpert_Container h2 {
+  color: azure;
+  font-size: 8vh;
+}
+
+.GifExpert_Container ol {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.GifExpert_img {
+  display: flex;
+  flex-wrap: wrap;
+}
