@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing component "AddCategoryApp.js" Take Snapshot from "AddCategory" 1`] = `
+<div
+  className="addCategory_container"
+>
+  <form
+    className="task_form"
+    onSubmit={[Function]}
+  >
+    <input
+      id="category"
+      name="category"
+      onChange={[Function]}
+      placeholder="Add Title"
+      type="text"
+      value=""
+    />
+    <button>
+      add +
+    </button>
+  </form>
+</div>
+`;

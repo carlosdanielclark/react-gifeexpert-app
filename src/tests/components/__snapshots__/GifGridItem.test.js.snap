@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing component "GifGridItem.js" Take Snapshot of the "title" 1`] = `
+<div
+  className="animate__animated animate__bounce"
+>
+  <img
+    alt="Hello Carlos"
+    src="http://localhost:3000/algo.jpg"
+  />
+  <p>
+     
+    Hello Carlos
+     
+  </p>
+</div>
+`;

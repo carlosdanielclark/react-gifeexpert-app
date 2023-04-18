@@ -6,13 +6,13 @@ export const AddCategory = ({ setCategories, categories }) => {
   const [inputValue, setInputValue] = useState('');
 
   const handleChange = (e) => {
-    setInputValue(e.target.value);
+    setInputValue(e.target.value); 
   };
   
   //Manejo de tareas
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+
     //Validar dato
     if(inputValue.trim().length > 2){
       //Comunicacion de componentes
@@ -34,8 +34,8 @@ export const AddCategory = ({ setCategories, categories }) => {
         />
         <button>add +</button>
       </form>
-      <h1>{categories}</h1>
     </div>
+          
   );
 };
 

@@ -4,7 +4,7 @@ import { AddCategory } from './components/AddCategoryApp';
 import GifGrid from './components/GifGrid';
 
 function GifExpertApp() {
-  const [categories, setCategories] = useState(["Samurai X"]);
+  const [categories, setCategories] = useState(["Guilty Gear"]);
 
   return (
     <div className="GifExpert_Container">
